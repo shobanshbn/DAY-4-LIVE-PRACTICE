@@ -5,3 +5,84 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
+
+.main{
+    width: 100%;
+    min-height: 100vh;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.header b{
+    color: green;
+    font-size: 14px;
+    padding: 10px;  
+}
+.header h1{
+    letter-spacing: 1px;
+}
+
+.game{
+    display: flex;
+    justify-content: space-evenly;    
+}
+
+.player{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:20px;
+    /* tepx-align: center; */
+      
+}
+
+.player h3{
+    letter-spacing:1px;
+    font-family: 17px;
+
+}
+
+.player button{
+    background-color:green;
+    color:white;
+    outline: none;
+    width: 85px;
+    cursor:pointer;
+    height: 30px;
+    border: none;
+}
+
+.dice{
+    color: green;
+    font-size: 40px;
+}
+
+.dice img{
+    width: 130px;
+}
+
+.reset{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+
+.reset button{
+    background-color: rgb(214, 55, 81);
+    color: black;
+    outline: none;
+    width: 85px;
+    cursor: pointer;
+    height: 30px;
+    border: none;
+    margin-top: 70px;
+}
